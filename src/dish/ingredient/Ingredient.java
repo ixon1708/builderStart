@@ -53,9 +53,9 @@ public class Ingredient {
     public String toString() {
         return "Ingredient{" +
                 "type=" + type +
-                ", supplier='" + supplier + '\'' +
-                ", productionDateTime=" + productionDateTime +
-                ", bestBeforeDateTime=" + bestBeforeDateTime +
-                '}';
+                ",\n supplier='" + supplier + '\'' +
+                ",\n productionDateTime=" + productionDateTime +
+                ",\n bestBeforeDateTime=" + bestBeforeDateTime +
+                "}\n";
     }
 }
